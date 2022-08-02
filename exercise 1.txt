@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>DIne booking</title>
+</head>
+<body align="center">
+<h1>DINE BOOKING</h1>
+<form>
+<label><b>VISITER NAME:</b></label>
+<input type="text" name="VISITOR NAME" maxlength="20" placeholder="enter your name"></br>
+<label><b>NUMBER OF MEMBERS:</b></label>
+<input type="number" name="NUMBER OF MEMBERS" maxlength="2" placeholder="enter your number"></br>
+<label><b>CONTACT NUMBER:</b></label>
+<input type="number" name="CONTACT NUMBER" maxlength="10" placeholder="enter your number"></br>
+<label><b>EMAIL ID:</b></label>
+<input type="text" name="EMAIL ID" maxlength="60" placeholder="enter your email"></br>
+<label><b>VENUE PREFERENCE:</b></label>
+<input type="radio" name="SOUTH INDIAN">SOUTH INDIAN
+<input type="radio" name="CHINESE">CHHINESE
+<input type="radio" name="WESTERN">WESTERN</br>
+<label><b>ROOM STATES:</b></label>
+<input type="radio" name="NON AC">NON AC
+<input type="radio" name="AC">AC</br>
+<input type="submit" value="BOOK">
+<input type="reset" value="RESET">
+</form>
+</body>
+</html>
+
+
+
+
+
